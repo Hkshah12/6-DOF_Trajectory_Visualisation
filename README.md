@@ -1,1 +1,3 @@
-"#Latest Repo" 
+UR-5e Forward and Inverse Kinematics
+
+This project analyzes the forward kinematics of the 6-DOF Universal Robot UR-5e using Denavit-Hartenberg (DH) parameters. The forward kinematics is computed by assigning coordinate frames to each link, deriving homogeneous transformation matrices, and combining them to obtain the overall transformation matrix from base to end effector. An elliptical trajectory is specified in task space, and the inverse kinematics is solved using the Newton-Raphson method to determine joint angles for each pose. A 3D "stick figure" animation in MATLAB visualizes the robot following the trajectory.
